@@ -1,26 +1,56 @@
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <AppBar position="static">
-            <Toolbar>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} marginX={2}>
-                    Arijit Saha
-                </Typography>
-                <Typography marginX={4}>
-                    <Link to="/" className='Link-Normal'>Home</Link>
-                </Typography>
-                <Typography marginX={4}>
-                    <Link to="/projects" className='Link-Normal'>Projects</Link>
-                </Typography>
-                <Typography marginX={4}>
-                    <Link to="/contact" className='Link-Normal'>Contact</Link>
-                </Typography>
-            </Toolbar>
-        </AppBar>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div className="container-fluid" cl>
+                <a className="navbar-brand" href="#">Navbar</a>
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    className="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <Link
+                                className="nav-link active"
+                                aria-current="page"
+                                to="/"
+                            >
+                                Home
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                className="nav-link active"
+                                aria-current="page"
+                                to="/projects"
+                            >
+                                Projects
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                className="nav-link active"
+                                aria-current="page"
+                                to="/contact"
+                            >
+                                Contact
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     );
 }
-
