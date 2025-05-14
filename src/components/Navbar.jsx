@@ -17,7 +17,7 @@ function NavItem({ to, text }) {
 export default function Navbar() {
     return (
         <nav
-            class="navbar navbar-expand-lg bg-body-tertiary mb-3"
+            className="navbar navbar-expand-lg bg-body-tertiary mb-3"
             data-bs-theme="dark"
         >
             <div className="container-fluid" cl>
