@@ -4,7 +4,11 @@ function ProjectItem({ project }) {
     return (
         <div
             className="card"
-            style={{ width: "24rem", height: "44rem", boxShadow: "0 0 20px gray" }}
+            style={{
+                width: "24rem",
+                height: "44rem",
+                boxShadow: "0 0 20px gray",
+            }}
         >
             <img src={project.image} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -25,10 +29,20 @@ function ProjectItem({ project }) {
 export default function Projects() {
     return (
         <div>
-            <h2 className="text-center text-dark mt-5"style={{ fontFamily: "inter" }}> My Works </h2>
-            <h4 className="text-center text-dark" style={{ fontFamily: "inter" }}>
-                A collection of projects I've worked on.
-            </h4>
+            <div className="container">
+                <h2
+                    className="text-center text-dark mt-5"
+                    style={{ fontFamily: "inter" }}
+                >
+                    My Works
+                </h2>
+                <h4
+                    className="text-center text-dark"
+                    style={{ fontFamily: "inter" }}
+                >
+                    A collection of projects I've worked on.
+                </h4>
+            </div>
             <div className="p-5 d-flex flex-wrap justify-content-center gap-5">
                 {project_data.map((project, index) => (
                     <ProjectItem
