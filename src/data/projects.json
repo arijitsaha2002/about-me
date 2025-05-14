@@ -1,0 +1,66 @@
+[
+    {
+        "title": "Generating Representative Images from a sample via PCA",
+        "description": "Built a Python-based image processing tool using Principal Component Analysis (PCA) to generate representative images from fruit and handwritten digit datasets. Reduced dimensionality of MNIST images for efficient reconstruction, and implemented statistical techniques like hyperplane fitting and multivariate sampling.",
+        "technologies": [
+            "Python",
+            "NumPy",
+            "Matplotlib"
+        ],
+        "image": "/about-me/images/generating-images-pca.png",
+        "link": "https://example.com/project1"
+    },
+    {
+        "title": "Project 1",
+        "description": "Developed a Railway Planner in C++ by implementing key algorithms (Quicksort, KMP, Dijkstra) and data structures (BSTs, AVL Trees, Heaps, Tries, Graphs). Enabled features like journey search, review filtering, and dynamic review management.",
+        "technologies": [
+            "C++",
+            "DSA"
+        ],
+        "image": "/about-me/images/railway-planner.png",
+        "link": "https://example.com/project1"
+    },
+    {
+        "title": "Project 2",
+        "description": "Built a compiler for a small C-like language in C++, supporting lexical analysis, parsing, and generation of intermediate representations (AST, TAC, RTL). Added features for visualization and phase-wise control, allowing users to inspect or output assembly code for easier debugging and analysis.",
+        "technologies": [
+            "C++",
+            "Yacc",
+            "Flex"
+        ],
+        "image": "/about-me/images/sclp.png",
+        "link": "https://example.com/project2"
+    },
+    {
+        "title": "Project 3",
+        "description": "Optimized cache performance for SAT solvers using ChampSim by implementing and evaluating various cache hierarchies (Inclusive, Exclusive, NINE) and replacement policies (FIFO, LRU, LFU, RANDOM). Analyzed solver performance (Kissat, CaDiCaL) using IPC and LLC miss rate across different cache configurations.",
+        "technologies": [
+            "C++",
+            "ChampSim"
+        ],
+        "image": "/about-me/images/memory-cache-hierarchy-optimization-for-sat-solvers.png",
+        "link": "https://example.com/project3"
+    },
+    {
+        "title": "Project 4",
+        "description": "Conducted Monte Carlo simulations in Python to empirically verify statistical theorems such as the Law of Large Numbers and Poisson Thinning. Analyzed distributions (Poisson, Laplace, Gumbel, Cauchy) and demonstrated properties like mean and variance using NumPy and Matplotlib.",
+        "technologies": [
+            "Python",
+            "NumPy",
+            "Matplotlib"
+        ],
+        "image": "/about-me/images/monte-carlo.png",
+        "link": "https://example.com/project4"
+    },
+    {
+        "title": "Project 5",
+        "description": "Developed a reliable file transfer system in C++ using TCP sockets, with support for simultaneous multi-client communication via polling. Enabled bidirectional file transfers between clients and server, optimizing performance through socket buffer tuning.",
+        "technologies": [
+            "C++",
+            "UNIX Sockets",
+            "Multi-threading"
+        ],
+        "image": "/about-me/images/socket-programming.png",
+        "link": "https://example.com/project4"
+    }
+]

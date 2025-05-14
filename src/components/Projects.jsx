@@ -1,8 +1,42 @@
-export default function Projects() {
-  return (
-    <div>
-        <h2>Projects</h2>
-    </div>
-  );
+import project_data from "../data/projects.json";
+
+function ProjectItem({ project }) {
+    return (
+        <div
+            className="card"
+            style={{ width: "24rem", height: "44rem", boxShadow: "0 0 20px gray" }}
+        >
+            <img src={project.image} className="card-img-top" alt="..." />
+            <div className="card-body">
+                <h5 className="text-success text-center card-title">
+                    {project.technologies.join(", ")}
+                </h5>
+                <p
+                    className="card-text p-3 text-secondary"
+                    style={{ fontFamily: "roboto", fontSize: "1.1rem" }}
+                >
+                    {project.description}
+                </p>
+            </div>
+        </div>
+    );
 }
 
+export default function Projects() {
+    return (
+        <div>
+            <h2 className="text-center text-dark mt-5"style={{ fontFamily: "inter" }}> My Works </h2>
+            <h4 className="text-center text-dark" style={{ fontFamily: "inter" }}>
+                A collection of projects I've worked on.
+            </h4>
+            <div className="p-5 d-flex flex-wrap justify-content-center gap-5">
+                {project_data.map((project, index) => (
+                    <ProjectItem
+                        key={index}
+                        project={project}
+                    />
+                ))}
+            </div>
+        </div>
+    );
+}
