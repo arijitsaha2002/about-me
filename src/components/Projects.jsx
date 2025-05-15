@@ -10,7 +10,7 @@ function ProjectItem({ project }) {
                 boxShadow: "0 0 20px gray",
             }}
         >
-            <img src={project.image} className="card-img-top" alt="..." />
+            <img src={process.env.PUBLIC_URL + project.image} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="text-success text-center card-title">
                     {project.technologies.join(", ")}
