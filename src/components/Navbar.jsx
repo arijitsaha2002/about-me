@@ -21,7 +21,7 @@ export default function Navbar() {
             data-bs-theme="dark"
         >
             <div className="container-fluid" cl>
-                <Link className="navbar-brand fs-3 ms-2" to="/about-me/" style={{ fontFamily: "inter" }}>
+                <Link className="navbar-brand fs-3 ms-2" to="/" style={{ fontFamily: "inter" }}>
                     Arijit Saha
                 </Link>
                 <button
@@ -40,14 +40,14 @@ export default function Navbar() {
                     id="navbarSupportedContent"
                 >
                     <ul className="navbar-nav ms-auto mb-2 me-2 mb-lg-0">
-                        <NavItem to="/about-me/experience" text="Experience" />
-                        <NavItem to="/about-me/skills" text="Skills" />
-                        <NavItem to="/about-me/projects" text="Projects" />
+                        <NavItem to="/experience" text="Experience" />
+                        <NavItem to="/skills" text="Skills" />
+                        <NavItem to="/projects" text="Projects" />
                         <NavItem
-                            to="/about-me/achievements"
+                            to="/achievements"
                             text="Achievements"
                         />
-                        <NavItem to="/about-me/contact" text="Contact" />
+                        <NavItem to="/contact" text="Contact" />
                     </ul>
                 </div>
             </div>

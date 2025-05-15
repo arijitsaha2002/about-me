@@ -7,7 +7,7 @@
             "NumPy",
             "Matplotlib"
         ],
-        "image": "/about-me/images/generating-images-pca.png",
+        "image": "/images/generating-images-pca.png",
         "link": "https://example.com/project1"
     },
     {
@@ -17,7 +17,7 @@
             "C++",
             "DSA"
         ],
-        "image": "/about-me/images/railway-planner.png",
+        "image": "/images/railway-planner.png",
         "link": "https://example.com/project1"
     },
     {
@@ -28,7 +28,7 @@
             "Yacc",
             "Flex"
         ],
-        "image": "/about-me/images/sclp.png",
+        "image": "/images/sclp.png",
         "link": "https://example.com/project2"
     },
     {
@@ -38,7 +38,7 @@
             "C++",
             "ChampSim"
         ],
-        "image": "/about-me/images/memory-cache-hierarchy-optimization-for-sat-solvers.png",
+        "image": "/images/memory-cache-hierarchy-optimization-for-sat-solvers.png",
         "link": "https://example.com/project3"
     },
     {
@@ -49,7 +49,7 @@
             "NumPy",
             "Matplotlib"
         ],
-        "image": "/about-me/images/monte-carlo.png",
+        "image": "/images/monte-carlo.png",
         "link": "https://example.com/project4"
     },
     {
@@ -60,7 +60,7 @@
             "UNIX Sockets",
             "Multi-threading"
         ],
-        "image": "/about-me/images/socket-programming.png",
+        "image": "/images/socket-programming.png",
         "link": "https://example.com/project4"
     }
 ]
