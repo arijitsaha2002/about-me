@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Wells Fargo",
+        "type": "Internship",
+        "description": "Developed a Sports App facilitating communication between sponsors and event parties. Utilized MERN stack (MongoDB, Express.js, React, Node.js) for full-stack development. Enabled secure transaction processing between sponsors and event parties. Incorporated real-time chat functionality for negotiations and deal finalization. Developed and maintained user authentication and authorization features.",
+        "date": "2023-01-01",
+        "location": "Location 1",
+        "image": "/images/wells-fargo-logo.svg"
+    },
+    {
+        "title": "Eshway",
+        "type": "Internship",
+        "description": "Developed a Sports App facilitating communication between sponsors and event parties. Utilized MERN stack (MongoDB, Express.js, React, Node.js) for full-stack development. Enabled secure transaction processing between sponsors and event parties. Incorporated real-time chat functionality for negotiations and deal finalization. Developed and maintained user authentication and authorization features.",
+        "date": "2023-02-01",
+        "location": "Location 2",
+        "image": "/images/wells-fargo-logo.svg"
+    },
+    {
+        "title": "Detect Tools",
+        "type": "Freelance",
+        "description": "Developed a Sports App facilitating communication between sponsors and event parties. Utilized MERN stack (MongoDB, Express.js, React, Node.js) for full-stack development. Enabled secure transaction processing between sponsors and event parties. Incorporated real-time chat functionality for negotiations and deal finalization. Developed and maintained user authentication and authorization features.",
+        "date": "2023-03-01",
+        "location": "Location 3",
+        "image": "/images/wells-fargo-logo.svg"
+    },
+    {
+        "title": "Sqre Page",
+        "type": "Research and Development",
+        "description": "Developed a Sports App facilitating communication between sponsors and event parties. Utilized MERN stack (MongoDB, Express.js, React, Node.js) for full-stack development. Enabled secure transaction processing between sponsors and event parties. Incorporated real-time chat functionality for negotiations and deal finalization. Developed and maintained user authentication and authorization features.",
+        "date": "2023-03-01",
+        "location": "Location 3",
+        "image": "/images/wells-fargo-logo.svg"
+    },
+    {
+        "title": "RNA Sequencing",
+        "type": "Research and Development",
+        "description": "Developed a Sports App facilitating communication between sponsors and event parties. Utilized MERN stack (MongoDB, Express.js, React, Node.js) for full-stack development. Enabled secure transaction processing between sponsors and event parties. Incorporated real-time chat functionality for negotiations and deal finalization. Developed and maintained user authentication and authorization features.",
+        "date": "2023-03-01",
+        "location": "Location 3",
+        "image": "/images/wells-fargo-logo.svg"
+    },
+    {
+        "title": "Accenture",
+        "type": "Virtual Internship",
+        "description": "Developed a Sports App facilitating communication between sponsors and event parties. Utilized MERN stack (MongoDB, Express.js, React, Node.js) for full-stack development. Enabled secure transaction processing between sponsors and event parties. Incorporated real-time chat functionality for negotiations and deal finalization. Developed and maintained user authentication and authorization features.",
+        "date": "2023-03-01",
+        "location": "Location 3",
+        "image": "/images/wells-fargo-logo.svg"
+    }
+]

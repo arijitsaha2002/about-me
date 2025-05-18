@@ -7,7 +7,6 @@ import Navbar from "./components/Navbar.jsx";
 import Experience from "./components/Experience.jsx";
 import Skills from "./components/Skills.jsx";
 import Achievements from "./components/Achievements.jsx";
-import './App.css';
 
 function App() {
     return (

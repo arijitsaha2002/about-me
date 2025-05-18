@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Languages",
+        "list": [
+            "C++",
+            "C",
+            "Python",
+            "R",
+            "JavaScript",
+            "Java",
+            "HTML",
+            "CSS",
+            "SQL",
+            "Bash",
+            "MATLAB",
+            "X86-Assembly"
+        ]
+    },
+    {
+        "name": "Frameworks",
+        "list": [
+            "Flask",
+            "Django",
+            "React",
+            "Node.js",
+            "Express.js",
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "NumPy",
+            "Pandas",
+            "Matplotlib",
+            "Seaborn",
+            "OpenCV",
+            "BeautifulSoup"
+        ]
+    },
+    {
+        "name": "Databases",
+        "list": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "SQLite"
+        ]
+    },
+    {
+        "name": "Tools & Technologies",
+        "list": [
+            "Git",
+            "Docker",
+            "Kubernetes",
+            "Linux",
+            "LaTeX",
+            "Jupyter Notebook"
+        ]
+    },
+    {
+        "name": "Courses",
+        "list": [
+            "Implementation of Programming Languages + Lab",
+            "Database and Information Systems + Lab",
+            "Topics in Virtualization and Cloud Computing",
+            "Introduction to Blockchains, Cryptocurrencies and Smart Contracts",
+            "Automata Theory",
+            "Operating Systems + Lab",
+            "Artificial Intelligence and Machine Learning + Lab",
+            "Artificial Intelligence and Machine Learning",
+            "Operating Systems",
+            "Game Theory and Algorithmic Mechanism Design",
+            "Design and Analysis of Algorithms",
+            "Computer Networks + Lab",
+            "Logic for Computer Science",
+            "Digital Logic Design and Computer Architecture + Lab",
+            "Discrete Structures",
+            "Data Structures and Algorithms + Lab",
+            "Data Analysis and Interpretation",
+            "Software Systems Lab",
+            "Abstractions and Paradigms for Programming + Lab"
+        ]
+    }
+]

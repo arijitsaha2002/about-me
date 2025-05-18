@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function NavItem({ to, text }) {
     return (
-        <li className="nav-item fs-5 ms-3" style={{ fontFamily: "inter" }}>
+        <li className="nav-item fs-5 ms-3">
             <Link
                 className="nav-link active"
                 aria-current="page"
@@ -17,11 +17,11 @@ function NavItem({ to, text }) {
 export default function Navbar() {
     return (
         <nav
-            className="navbar navbar-expand-lg bg-body-tertiary"
+            className="navbar navbar-expand-lg bg-black"
             data-bs-theme="dark"
         >
-            <div className="container-fluid" cl>
-                <Link className="navbar-brand fs-3 ms-2" to="/" style={{ fontFamily: "inter" }}>
+            <div className="container-fluid bg-black">
+                <Link className="navbar-brand fs-3 ms-2" to="/">
                     Arijit Saha
                 </Link>
                 <button

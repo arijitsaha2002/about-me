@@ -18,19 +18,17 @@ export default function Home() {
                         <h1
                             className="text-white text-center mb-5"
                             style={{
-                                fontFamily: "inter",
-                                fontSize: "5rem",
+                                fontSize: "3.5rem",
                             }}
                         >
                             Welcome.
                         </h1>
                         <h5
                             className="text-white"
-                            style={{ fontFamily: "inter" }}
                         >
-                            My name is Arijit Saha, a front-end developer
-                            based in Torquay, Devon, UK. I have worked on a wide
-                            range of front-end projects, from DJ applications to
+                            My name is Arijit Saha, a front-end developer based
+                            in Torquay, Devon, UK. I have worked on a wide range
+                            of front-end projects, from DJ applications to
                             eCommerce booking platforms, with a focus on
                             creating clean, well-crafted interfaces that not
                             only look great but also provide a seamless user
@@ -44,6 +42,10 @@ export default function Home() {
                 alt="profile"
                 width={400}
                 className="rounded-circle mx-auto d-block mt-5 mb-3"
+                style={{
+                    maxWidth: "90%",
+                    height: "auto",
+                }}
             />
         </div>
     );

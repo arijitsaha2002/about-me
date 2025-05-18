@@ -17,7 +17,7 @@ function ProjectItem({ project }) {
                 </h5>
                 <p
                     className="card-text p-3 text-secondary"
-                    style={{ fontFamily: "roboto", fontSize: "1.1rem" }}
+                    style={{ fontSize: "1.1rem" }}
                 >
                     {project.description}
                 </p>
@@ -32,13 +32,11 @@ export default function Projects() {
             <div className="container">
                 <h2
                     className="text-center text-dark mt-5"
-                    style={{ fontFamily: "inter" }}
                 >
                     My Works
                 </h2>
                 <h4
                     className="text-center text-dark"
-                    style={{ fontFamily: "inter" }}
                 >
                     A collection of projects I've worked on.
                 </h4>
