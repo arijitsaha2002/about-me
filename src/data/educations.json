@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Sargachi Ramakrishna Mission High School",
+        "Address": "Sargachi, Murshidabad, West Bengal 742149",
+        "website": "https://www.sargachirkmhs.in/",
+        "degree": "10th Grade",
+        "start-year": "2013",
+        "end-year": "2019",
+        "image": "/images/srkmhs.jpeg",
+        "board": "West Bengal Council of Higher Secondary Education",
+        "description": "Completed Higher Secondary education with a focus on Science. Achieved a score of 85% in the final examinations."
+    },
+    {
+        "name": "Ramakrishna Mission Vidyalaya, Narendrapur",
+        "Address": "Narendrapur, West Bengal 700103",
+        "website": "https://www.rkmvnarendrapur.org/",
+        "degree": "Higher Secondary",
+        "start-year": "2019",
+        "end-year": "2021",
+        "image": "/images/ndp.jpeg",
+        "board": "West Bengal Council of Higher Secondary Education",
+        "description": "Completed Higher Secondary education with a focus on Science. Achieved a score of 85% in the final examinations."
+    },
+    {
+        "name": "Indian Institute of Technology, Bombay",
+        "Address": "Powai, Mumbai, Maharashtra 400076",
+        "website": "https://www.iitb.ac.in/",
+        "degree": "Bachelor of Technology in Computer Science and Engineering",
+        "start-year": "2021",
+        "end-year": "2025",
+        "image": "/images/iitb.jpg",
+        "board": "Indian Institute of Technology, Bombay",
+        "description": "Pursuing a Bachelor of Technology in Computer Science and Engineering. Expected to graduate in 2025. Currently maintaining a CGPA of 8.5/10."
+    }
+]

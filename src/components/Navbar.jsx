@@ -43,11 +43,7 @@ export default function Navbar() {
                         <NavItem to="/experience" text="Experience" />
                         <NavItem to="/skills" text="Skills" />
                         <NavItem to="/projects" text="Projects" />
-                        <NavItem
-                            to="/achievements"
-                            text="Achievements"
-                        />
-                        <NavItem to="/contact" text="Contact" />
+                        <NavItem to="/educations" text="Educations" />
                     </ul>
                 </div>
             </div>
