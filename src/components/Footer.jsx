@@ -1,20 +1,34 @@
 export default function Footer() {
     return (
-        <footer className="text-center p-4 bg-black text-white d-flex justify-content-between flex-md-row flex-column">
-            <p>&copy; 2025 Arijit Saha. All rights reserved.</p>
-            <p>
-                📍 India
-            </p>
-            <p>
-                <a href="https://github.com/yourusername" target="_blank">
+        <footer className="text-center bg-black text-white d-flex justify-content-between flex-md-row flex-column">
+            <div className="p-3">
+                <a
+                    href="https://github.com/arijitsaha2002"
+                    target="_blank"
+                    style={{ color: "lime" }}
+                >
                     GitHub
                 </a>{" "}
-                <a href="https://linkedin.com/in/yourusername" target="_blank">
+                <a
+                    href="https://www.linkedin.com/in/arijit-saha-7427b6245/"
+                    target="_blank"
+                    style={{ color: "lime" }}
+                >
                     LinkedIn
                 </a>{"  "}
                 &nbsp;|&nbsp;
-                <a href="/resume.pdf" target="_blank">Resume</a>
-            </p>
+                <a
+                    href={process.env.PUBLIC_URL + "/assets/resume.pdf"}
+                    target="_blank"
+                    style={{ color: "lime" }}
+                >
+                    Resume
+                </a>
+            </div>
+            <div className="p-md-3">📍 India</div>
+            <div className="p-3">
+                &copy; 2025 Arijit Saha. All rights reserved.
+            </div>
         </footer>
     );
 }
