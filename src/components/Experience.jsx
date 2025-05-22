@@ -4,11 +4,11 @@ function ExperienceItem({ exp }) {
     return (
         <div className="row justify-content-between align-items-center border-top border-dark py-4">
             <div className="col-md-3 text-center">
-                <img
+                <a href={exp.website} target="_blank"><img
                     src={process.env.PUBLIC_URL + exp.image}
                     alt="Hero"
                     height={250}
-                />
+                /></a>
             </div>
             <div className="col-md-9 px-5 py-4">
                 <h1 className="text-center mb-5 fs-2 text-md-start">

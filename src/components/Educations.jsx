@@ -4,11 +4,11 @@ function EducationItem({ edu }) {
     return (
         <div className="row justify-content-between align-items-center border-top border-dark py-4">
             <div className="col-md-4 text-center">
-                <img
+                <a href={edu.website} target="_blank"><img
                     src={process.env.PUBLIC_URL + edu.image}
                     alt="Hero"
                     height={250}
-                />
+                /></a>
             </div>
             <div className="col-md-8 px-5 py-4">
                 <h1 className="text-center mb-5 fs-2 text-md-start">
