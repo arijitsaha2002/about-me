@@ -11,7 +11,7 @@
         "link": "https://example.com/project1"
     },
     {
-        "title": "Project 1",
+        "title": "Railway Planner",
         "description": "Developed a Railway Planner in C++ by implementing key algorithms (Quicksort, KMP, Dijkstra) and data structures (BSTs, AVL Trees, Heaps, Tries, Graphs). Enabled features like journey search, review filtering, and dynamic review management.",
         "technologies": [
             "C++",
@@ -21,7 +21,7 @@
         "link": "https://example.com/project1"
     },
     {
-        "title": "Project 2",
+        "title": "SCLP: A Language Processor for a Small C-like Language",
         "description": "Built a compiler for a small C-like language in C++, supporting lexical analysis, parsing, and generation of intermediate representations (AST, TAC, RTL). Added features for visualization and phase-wise control, allowing users to inspect or output assembly code for easier debugging and analysis.",
         "technologies": [
             "C++",
@@ -32,7 +32,7 @@
         "link": "https://example.com/project2"
     },
     {
-        "title": "Project 3",
+        "title": "Memory Cache Hierarchy Optimization for SAT Solvers",
         "description": "Optimized cache performance for SAT solvers using ChampSim by implementing and evaluating various cache hierarchies (Inclusive, Exclusive, NINE) and replacement policies (FIFO, LRU, LFU, RANDOM). Analyzed solver performance (Kissat, CaDiCaL) using IPC and LLC miss rate across different cache configurations.",
         "technologies": [
             "C++",
@@ -42,7 +42,7 @@
         "link": "https://example.com/project3"
     },
     {
-        "title": "Project 4",
+        "title": "Monte Carlo Analysis of Statistical Theorems",
         "description": "Conducted Monte Carlo simulations in Python to empirically verify statistical theorems such as the Law of Large Numbers and Poisson Thinning. Analyzed distributions (Poisson, Laplace, Gumbel, Cauchy) and demonstrated properties like mean and variance using NumPy and Matplotlib.",
         "technologies": [
             "Python",
@@ -53,7 +53,7 @@
         "link": "https://example.com/project4"
     },
     {
-        "title": "Project 5",
+        "title": "Socket Programming for File Transfer",
         "description": "Developed a reliable file transfer system in C++ using TCP sockets, with support for simultaneous multi-client communication via polling. Enabled bidirectional file transfers between clients and server, optimizing performance through socket buffer tuning.",
         "technologies": [
             "C++",
