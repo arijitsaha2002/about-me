@@ -1,15 +1,29 @@
 import project_data from "../data/projects.json";
 
+
+function ProjectModalBody({project}) {
+    return (
+        <div>
+            {project.description}
+            {project.description}
+            {project.description}
+            {project.description}
+            {project.description}
+        </div>
+    )        
+}    
+
+
 function ProjectModal({ project, index }) {
     return (
         <div
             className="modal fade"
             id={index + "exampleModal"}
             tabindex="-1"
-            aria-labelledby="exampleModalLabel"
+            aria-labelledby={index + "exampleModalLabel"}
             aria-hidden="true"
         >
-            <div className="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
                 <div className="modal-content">
                     <div className="modal-header">
                         <h1
@@ -18,16 +32,9 @@ function ProjectModal({ project, index }) {
                         >
                             {project.title}
                         </h1>
-                        <button
-                            type="button"
-                            className="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        >
-                        </button>
                     </div>
                     <div className="modal-body">
-                        ...
+                        <ProjectModalBody project={project}/>
                     </div>
                     <div className="modal-footer">
                         <button
@@ -36,9 +43,6 @@ function ProjectModal({ project, index }) {
                             data-bs-dismiss="modal"
                         >
                             Close
-                        </button>
-                        <button type="button" className="btn btn-primary">
-                            Save changes
                         </button>
                     </div>
                 </div>
@@ -89,13 +93,13 @@ export default function Projects() {
         <div>
             <div className="container">
                 <h2 className="text-center text-dark mt-5">
-                    My Works
+                    My Projects
                 </h2>
                 <h4 className="text-center text-dark">
                     A collection of projects I've worked on.
                 </h4>
             </div>
-            <div className="p-5 d-flex flex-wrap justify-content-center gap-5">
+            <div className="py-5 px-md-5 px-3 d-flex flex-wrap justify-content-center gap-5">
                 {project_data.map((project, index) => (
                     <ProjectItem
                         key={index}

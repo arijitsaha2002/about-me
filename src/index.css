@@ -1,8 +1,17 @@
 * {
     font-family: 'Inter';
-}    
+}
 
 body {
     padding: 0;
     min-height: 100vh;
-}    
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black !important;
+}
+
+html {
+    height: 100%;
+    background-color: black !important;
+}

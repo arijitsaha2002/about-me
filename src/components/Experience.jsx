@@ -10,13 +10,13 @@ function ExperienceItem({ exp }) {
                     height={250}
                 /></a>
             </div>
-            <div className="col-md-9 px-5 py-4">
+            <div className="col-md-9 px-md-5 py-4">
                 <h1 className="text-center mb-5 fs-2 text-md-start">
                     {exp.title}
                 </h1>
-                <h5>
+                <div className="fs-5 text-md-start text-center">
                     {exp.description}
-                </h5>
+                </div>
             </div>
         </div>
     );
