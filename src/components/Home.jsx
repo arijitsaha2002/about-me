@@ -48,7 +48,7 @@ export default function Home() {
                 }}
             />
             <div 
-        className="text-center text-dark fs-4 p-5 m-5 rounded-5"
+        className="text-center text-dark fs-5 p-3 mx-md-5 mx-3 my-5 rounded-5"
         style={{ boxShadow: "0 0 20px gray", backgroundColor: "lightgray" }}
             >
                 This website showcases my journey as a software developer — from
